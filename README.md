@@ -1,3 +1,4 @@
+![App Icon](https://github.com/Eugenia-Ye/YESafetyPin/blob/master/YESafetyPinDemo/Images.xcassets/AppIcon.appiconset/Icon-App-40x40%403x.png)
 # What is the library for ?
 NSArray, NSMutableArray, NSSet, NSMutableSet, NSDictionary and  NSMutableDictionary are pretty common collections we used in iOS development. While enjoying the convenience of these classes, they also bring us some trouble. 
 
@@ -86,30 +87,4 @@ But if you use **YESafetyPin**, you will not get crash anymore and will find det
 	0   Gamma                               0x00000001002ac074 safetyCollectionLogMessage + 224
 	1   Gamma                               0x00000001002ac238 -[NSArray(YESafe) ye_objectAtIndexI:] + 276
 	2   Gamma                               0x00000001002769c4 -[ContactsRootViewController viewWillAppear:] + 4420
-	3   UIKit                               0x00000001878f7d5c <redacted> + 516
-	4   UIKit                               0x0000000187a16cf0 <redacted> + 612
-	5   UIKit                               0x0000000187a16940 <redacted> + 360
-	6   UIKit                               0x0000000187ade160 <redacted> + 336
-	7   UIKit                               0x00000001879151ec <redacted> + 96
-	8   UIKit                               0x0000000187addfb4 <redacted> + 468
-	9   UIKit                               0x00000001879151ec <redacted> + 96
-	10  UIKit                               0x00000001878fe2c8 <redacted> + 612
-	11  UIKit                               0x0000000187addbec <redacted> + 128
-	12  UIKit                               0x00000001879151ec <redacted> + 96
-	13  UIKit                               0x00000001878fe2c8 <redacted> + 612
-	14  UIKit                               0x0000000187914b88 <redacted> + 592
-	15  UIKit                               0x0000000187914814 <redacted> + 700
-	16  UIKit                               0x000000018790dd50 <redacted> + 684
-	17  UIKit                               0x00000001878e0f74 <redacted> + 264
-	18  Gamma                               0x00000001000bfdb0 -[OTTApplication sendEvent:] + 92
-	19  UIKit                               0x0000000187b82124 <redacted> + 15424
-	20  UIKit                               0x00000001878df488 <redacted> + 1716
-	21  CoreFoundation                      0x0000000182e1bf8c <redacted> + 24
-	22  CoreFoundation                      0x0000000182e1b230 <redacted> + 264
-	23  CoreFoundation                      0x0000000182e192e0 <redacted> + 712
-	24  CoreFoundation                      0x0000000182d44f74 CFRunLoopRunSpecific + 396
-	25  GraphicsServices                    0x000000018c79f6fc GSEventRunModal + 168
-	26  UIKit                               0x0000000187946d94 UIApplicationMain + 1488
-	27  Gamma                               0x00000001002aba14 main + 172
-	28  libdyld.dylib                       0x00000001951daa08 <redacted> + 4
-)
+…
